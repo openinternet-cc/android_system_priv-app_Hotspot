@@ -1,0 +1,9 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE := Hotspot
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := hotspot.apk
+include $(BUILD_PREBUILT)
